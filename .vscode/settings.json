@@ -1,0 +1,22 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#7e65fb",
+        "activityBar.activeBorder": "#fdb1a2",
+        "activityBar.background": "#7e65fb",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#fdb1a2",
+        "activityBarBadge.foreground": "#15202b",
+        "statusBar.background": "#5433fa",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#7e65fb",
+        "titleBar.activeBackground": "#5433fa",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#5433fa99",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.color": "#5433fa",
+    "cSpell.words": [
+        "Horiseon"
+    ]
+}
