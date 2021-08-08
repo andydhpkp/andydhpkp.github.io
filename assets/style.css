@@ -13,8 +13,13 @@
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
     color: var(--secondary-color);
     background-color: var(--background-color);
+}
+
+p {
+    line-height: 30px;
 }
 
 header {
@@ -44,6 +49,11 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 40px;
 }
 
 section {
@@ -108,24 +118,54 @@ footer {
 }
  */
 
- .welcome-name {
-     display: flex;
-     justify-content: center;
-     flex-wrap: wrap;
-     margin-top: 15px;
- }
+.welcome-name {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
 
- .welcome-name h1 {
-     font-weight: normal;
-     font-size: 50px;
- }
+.welcome-name h1 {
+    font-weight: normal;
+    font-size: 50px;
+}
 
- .break {
-    flex-basis: 100%;
-    height: 0;
- }
+.break {
+flex-basis: 100%;
+height: 0;
+}
 
- #welcome-color {
-     color: var(--tertiary-color);
- }
+#welcome-color {
+    color: var(--tertiary-color);
+}
+
+.about-me h2 {
+    margin-bottom: 20px;
+}
+
+.about-me li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.about-me-div {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.description-left {
+    width: 50%;
+}
+
+.description-right-list {
+    display: flex;
+}
+
+.description-right-list ul {
+    flex: 50%
+}
+
+
+
 
