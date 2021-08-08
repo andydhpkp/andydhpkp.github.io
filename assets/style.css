@@ -213,7 +213,7 @@ height: 0;
 .contact-class {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 input[type=text], input[type=email], textarea {
@@ -249,5 +249,40 @@ input[type=text], input[type=email], textarea {
     width: 400px;
 }
 
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 1300px) {
+
+    h1 {
+        text-align: center;
+    }
+
+    .work-projects{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .work-projects h1 {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .first-project {
+        display: flex;
+        align-items: flex-start;
+    }
 
 
+
+
+    .contact-form {
+        text-align: center;
+    }
+    .contact-class {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+}
