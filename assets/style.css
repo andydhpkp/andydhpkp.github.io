@@ -108,20 +108,6 @@ footer {
     width: 40%;
 }
 
-/* .square {
-    width: 508px;
-    height: 422.56px;
-    background-color: var(--secondary-color);
-    position: relative;
-    left: -500px;
-}
-
-.stack-top {
-    z-index: 9;
-    margin: 20px;
-}
- */
-
 .welcome-name {
     display: flex;
     justify-content: center;
@@ -250,34 +236,97 @@ input[type=text], input[type=email], textarea {
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1350px) {
+
+    header nav ul li a {
+        font-size: 20px;
+    }
 
     h1 {
         text-align: center;
     }
 
-    .work-projects{
+    p {
+        text-align: center;
+    }
+
+    .welcome-pic img {
+        width: 100%;
+    }
+
+    .about-me-div {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
     }
 
-    .work-projects h1 {
+    .description-left {
+        margin: auto;
+    }
+
+    .description-right { 
+        margin: auto;
+        padding-top: 5%;
+    }
+
+    .description-right-list {
         display: flex;
-        align-items: flex-start;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .description-right-list ul {
+        text-align: center;
+    }
+
+    .work-projects h1 {
+        align-items: center;
     }
 
     .first-project {
         display: flex;
-        align-items: flex-start;
+        align-items: center;
     }
 
+    .align-right {
+        margin: auto;
+    }
 
+    .align-left {
+        margin: auto;
+    }
+
+    .project-2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .project-2 img {
+        width: 100%;
+    }
+
+    .project-3 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .project-3 img {
+        width: 100%;
+        margin: auto;
+    }
+
+    .project-description {
+        text-align: center;
+    }
 
 
     .contact-form {
         text-align: center;
     }
+
     .contact-class {
         display: flex;
         flex-wrap: wrap;
@@ -285,4 +334,32 @@ input[type=text], input[type=email], textarea {
         align-items: center;
     }
 
+    .contact-form button{
+        width: 100%
+    }
+
+    .contact-class iframe {
+        flex: 1 100%;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 515px) {
+
+    header {
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        position: relative;
+    }
+ 
+    
+    .link-logos {
+        display: flex;
+        flex: 1 12%;
+        align-items: flex-start;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
 }
