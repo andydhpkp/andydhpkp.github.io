@@ -13,7 +13,13 @@
         "titleBar.activeBackground": "#5433fa",
         "titleBar.activeForeground": "#e7e7e7",
         "titleBar.inactiveBackground": "#5433fa99",
-        "titleBar.inactiveForeground": "#e7e7e799"
+        "titleBar.inactiveForeground": "#e7e7e799",
+        "editorGroup.border": "#7e65fb",
+        "panel.border": "#7e65fb",
+        "sash.hoverBorder": "#7e65fb",
+        "sideBar.border": "#7e65fb",
+        "statusBarItem.remoteBackground": "#5433fa",
+        "statusBarItem.remoteForeground": "#e7e7e7"
     },
     "peacock.color": "#5433fa",
     "cSpell.words": [
